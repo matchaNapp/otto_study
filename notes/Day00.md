@@ -65,10 +65,10 @@ share-bottom → MOE → MMOE → PLE 的演进：
 学习以上内容后，我尝试根据理论知识自己实现：
 
 - [itemCF](restart/itemCF.py)
-- Surprise
-- BGE
-- Airbnb I2I
-- Swing
+- [surprise](restart/surprise.py)
+- [BGE](restart/BGE.py)
+- [airbnb](restart/airbnb.py)
+- [swing](restart/swing.py)
 
 其中，ItemCF 和 Surprise 的未优化版本成功在 Kaggle OTTO 官方比赛中得到成绩：
 
