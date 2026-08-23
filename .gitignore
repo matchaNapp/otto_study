@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+
+# 数据文件（防止误传大文件）
+*.parquet
+*.xlsx
+*.jsonl
+*.csv
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
