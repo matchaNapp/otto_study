@@ -64,7 +64,7 @@ share-bottom → MOE → MMOE → PLE 的演进：
 
 学习以上内容后，我尝试根据理论知识自己实现：
 
-- ItemCF
+- [itemCF](restart/itemCF.py)
 - Surprise
 - BGE
 - Airbnb I2I
