@@ -82,7 +82,7 @@ share-bottom → MOE → MMOE → PLE 的演进：
 ### 4.1 各算法思路与问题
 
 - **ItemCF (初版)**: 实现思路为基于用户session内的相邻转移共现计算物品相似度。提交后Public Score为 **0.41805**。
-- **Surprise (初版)**: 实现思路为简化的矩阵分解模型。提交后Public Score为 **0.29311**。
+- **Surprise (初版)**: 实现思路为受 Surprise 算法启发，在 itemCF 相邻转移共现基础上引入时间衰减和方向性，但因内存限制仅保留了简化版的时间加权转移概率。提交后 Public Score 为**0.29311**。
 - **BGE (初版)**: 实现思路为基于滑动窗口共现训练Skip-Gram模型，为`(aid, type)` pair学习向量表征，再通过向量相似度召回。因全库预测计算复杂度过高，未完成完整训练与评测。
 - **Airbnb (初版)**: 实现思路在BGE的Skip-Gram基础上，引入`LAMBDA_GLOBAL`参数，尝试在损失函数中融入订单（orders）作为全局上下文来指导向量学习。因沿用全库遍历预测方式，同样面临计算效率问题，未产出有效结果。
 - **Swing (初版)**: 未优化版本，因计算复杂度高，未完成运行得到结果。
@@ -152,4 +152,7 @@ BGE 和 Airbnb I2I 的计算复杂度较高，当时我并不了解：
 - [GradNorm在推荐系统多目标优化中的实战效果对比](https://blog.csdn.net/e6f7g8h9i/article/details/154732206) (CSDN)
 
 **基础推荐算法：**
-- 协同过滤、Item2Vec、Airbnb等算法来源于公开论文及技术博客，具体文献已融入上述笔记中，不单独列出。
+- 主要学习来源为 Datawhale 开源教程《深度推荐算法实践》（小麦书）：
+  - 项目地址：https://github.com/datawhalechina/fun-rec
+  - 在线阅读：https://datawhalechina.github.io/fun-rec/
+- 其中 ItemCF、Swing、Surprise、Item2Vec、Airbnb 等基础算法的原理与工程实现，均参考该书对应章节。
