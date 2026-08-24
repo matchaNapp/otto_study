@@ -123,7 +123,6 @@ OTTO推荐系统学习手记：从理论到工程实践
 
 - `notes`：逐日拆解笔记，按学习进度更新；
 - `restart`：自己的小样本实验代码（10k/3k），随学习进度迭代；
-- `experiments`：实验结果和方法对比。
 
 ---
 
@@ -131,19 +130,25 @@ OTTO推荐系统学习手记：从理论到工程实践
 
 如果你希望跟随我的学习过程阅读，可以按这个顺序：
 
-1. [`学习路径.md`](学习路径.md) — 整体学习规划；
-2. [`notes/Day00.md`](notes/Day00.md) — 理论学习与第一次算法实践；
-3. [`notes/Day01.md`](notes/Day01.md) — 项目规划与开源框架认知；
-4. [`notes/Day02.md`](notes/Day02.md) — 数据预处理与历史序列召回拆解；
-5. 后续内容随学习进度更新。
-
+1. [`notes/Day00.md`](notes/Day00.md) — 理论学习与第一次算法实践；
+2. [`notes/Day01.md`](notes/Day01.md) — 项目规划与开源框架认知；
+3. [`notes/Day02.md`](notes/Day02.md) — 数据预处理与历史序列召回拆解；
+4. [`notes/Day03.md`](notes/Day03.md) — 第一次算法改进与开源召回框架阅读；
+5. [`notes/Day04.md`](notes/Day04.md) — 共现矩阵与向量召回；
+6. 后续内容随学习进度更新。
 ---
 
 ## 致谢与说明
 
-本仓库学习过程中参考了公开开源项目：
+本仓库学习过程中主要参考了以下公开资源：
 
-[https://github.com/lukan217/kaggle\_otto\_rec\_sys](https://github.com/lukan217/kaggle_otto_rec_sys)
+**开源项目：**
+- [kaggle_otto_rec_sys](https://github.com/lukan217/kaggle_otto_rec_sys) — 本阶段主要拆解与学习的推荐系统工程实现
+
+**理论学习资料：**
+- [Datawhale《深度推荐算法实践》（小麦书）](https://datawhalechina.github.io/fun-rec/) — 基础推荐算法（ItemCF、Swing、Surprise、Item2Vec、Airbnb 等）的主要学习来源
+- [多任务学习算法在推荐系统中的应用](https://www.cnblogs.com/zhangxianrong/p/18487235) — 多目标推荐算法框架学习参考
+- [GradNorm在推荐系统多目标优化中的实战效果对比](https://blog.csdn.net/e6f7g8h9i/article/details/154732206) — GradNorm 学习参考
 
 感谢开源社区中所有愿意分享实践经验的开发者。
 
