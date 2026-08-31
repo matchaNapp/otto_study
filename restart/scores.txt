@@ -1,0 +1,37 @@
+itemCF_1：0.057971  (clicks=0.134873, carts=0.071788, orders=0.038246)
+surprise_1：0.059086  (clicks=0.145582, carts=0.077531, orders=0.035448)
+itemCF_v2：0.391581  (clicks=0.358434, carts=0.198851, orders=0.493470)
+surprise_v2：0.383695  (clicks=0.347390, carts=0.194903, orders=0.484142)
+
+itemcfv2作为候选池：
+itemCF_v3：0.391581  (clicks=0.358434, carts=0.198851, orders=0.493470)
+
+sasrec_on_itemcf：0.208222  (clicks=0.260040, carts=0.105528, orders=0.250933)
+deep_on_itemcf：0.226696  (clicks=0.278782, carts=0.121680, orders=0.270522)
+bge_on_itemcf：0.155998  (clicks=0.229920, carts=0.092606, orders=0.175373)
+airbnb_on_itemcf：0.151218  (clicks=0.229920, carts=0.089734, orders=0.168843)
+
+itemCF_v3：0.391581  (clicks=0.358434, carts=0.198851, orders=0.493470)
+itemcf_only_ranker：0.333384  (clicks=0.326087, carts=0.170213, orders=0.416185)
+item_deep_ranker：0.346458  (clicks=0.379599, carts=0.184397, orders=0.421965)
+itemcf_only_ranker：0.333384  (clicks=0.326087, carts=0.170213, orders=0.416185)
+deep_only_ranker：0.346935  (clicks=0.362876, carts=0.168440, orders=0.433526)
+item_deep_ranker：0.346458  (clicks=0.379599, carts=0.184397, orders=0.421965)
+data_ranker：0.402205  (clicks=0.379599, carts=0.196809, orders=0.508671)
+
+
+past_event：0.394910  (clicks=0.340696, carts=0.202800, orders=0.500000)
+past_event作为候选池：
+airbnb_on_past：0.281977  (clicks=0.308233, carts=0.154343, orders=0.341418)
+bge_on_past：0.281827  (clicks=0.308233, carts=0.157574, orders=0.339552)
+sasrec_on_past：0.256334  (clicks=0.292503, carts=0.135678, orders=0.310634)
+deep_on_past：0.265413  (clicks=0.299531, carts=0.146805, orders=0.319030)
+
+
+past_only_ranker：0.396395  (clicks=0.356187, carts=0.196809, orders=0.502890)
+data_ranker_on_past：0.394523  (clicks=0.356187, carts=0.202128, orders=0.497110)
+pe_airbnb_ranker：0.397991  (clicks=0.356187, carts=0.202128, orders=0.502890)
+airbnb_only_ranker：0.334831  (clicks=0.337793, carts=0.159574, orders=0.421965)
+
+data_ranker_on_past：0.391863  (clicks=0.356187, carts=0.193262, orders=0.497110)
+
