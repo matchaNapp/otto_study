@@ -1,4 +1,4 @@
-# otto_learning_journey
+# otto_study
 OTTO推荐系统学习手记：从理论到工程实践
 
 ## 为什么开始这个学习笔记？
@@ -135,7 +135,9 @@ OTTO推荐系统学习手记：从理论到工程实践
 3. [`notes/Day02.md`](notes/Day02.md) — 数据预处理与历史序列召回拆解；
 4. [`notes/Day03.md`](notes/Day03.md) — 第一次算法改进与开源召回框架阅读；
 5. [`notes/Day04.md`](notes/Day04.md) — 共现矩阵与向量召回；
-6. 后续内容随学习进度更新。
+6. [`notes/Day05.md`](notes/Day05.md) — 序列召回与自注意力建模；
+7. [`notes/Day06.md`](notes/Day06.md) — 特征工程与排序闭环；
+8. [`notes/Day07.md`](notes/Day07.md) — 学习汇总与工程总结。
 ---
 
 ## 致谢与说明
